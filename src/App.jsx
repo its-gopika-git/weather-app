@@ -6,7 +6,7 @@ import './assets/App.css';
 export const App = () => {
   return (
    <React.Fragment>
-    <BrowserRouter>
+    <BrowserRouter basename="/weather-app">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
